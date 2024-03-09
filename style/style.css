@@ -13,6 +13,7 @@ body{
     box-sizing: border-box;
     background-color: #0030bf;
     background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+    min-height: 100vh;
 }
 header {
     background-color: black;
@@ -110,7 +111,7 @@ main{
     background-image:
     linear-gradient(rgba(13, 7, 49, 0.877)
                     ,rgba(0, 0, 255, 0.692)),
-    url("/portfoliopersonale/media/rize_kamishiro_wallpaper_by_dinocozero_decujb8-pre.jpg");
+    url("/media/rize_kamishiro_wallpaper_by_dinocozero_decujb8-pre.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -313,7 +314,7 @@ div > a > button{
     font-size: xx-large;
     font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(rgba(255, 0, 0, 0.281),rgba(0, 0, 255, 0.308)),
-         url('/portfoliopersonale/media/wp4946058-anime-places-wallpapers.jpg');
+         url('/media/wp4946058-anime-places-wallpapers.jpg');
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
@@ -410,5 +411,121 @@ div > a > button{
   address > p > a > button:hover{
     background-color: #0056b3;
   }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Imposta il footer come posizione fissa */
+    bottom: 0; /* Lo posiziona in fondo alla pagina */
+    width: 100%; /* Fornisce la larghezza totale della pagina */
+}
 
+
+ 
+@media only screen and (max-width: 768px) {
+   .profilo{
+         flex-direction: row;
+   }
+   .work {
+    grid-column: 1/2;
+    margin-left: 1.8rem;
+    margin-right: 0;
+    max-width: 450px;
+    position: sticky;
+    top: 0;
+  }
+   .experience h2{
+         text-align: left;
+   }
+    body {
+        flex-direction: row;
+        font-size: 14px;
+    }
+    .portfolio article {
+        
+        flex-basis: calc((100% - 10px) / 2); 
+      }
+    
+}
+
+@media screen and (min-width: 576px) {
+    .text-hero {
+      flex-direction: row;
+    }
+    .text-hero {
+        grid-column: 1/3;
+    }
+    main {
+        grid-template-rows: auto auto;
+        grid-template-columns: 40% auto;
+      }
+   
+    .work {
+      /* Formula (100% - ((items - 1) * gap)) / items */
+      flex-basis: calc((100% - 10px) / 2); 
+    }
+  }
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    
+    body {
+        
+        font-size: 16px;
+    }
+
+    
+}
+@media screen and (min-width: 1200px) {
+    main {
+      grid-template-columns: 25% auto;
+    }
+  }
+
+@media only screen and (min-width: 1201px) {
+    
+    body {
+        
+        font-size: 18px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 578) {
+    header {
+        height: 100px; 
+    }
+  
+    footer {
+        padding: 20px; 
+        height: 100px;
+        font-size: large; 
+    }
+  }
+  @media only screen and (max-width: 578px) {
+    .background-wallpaper {
+        background-color: #ccc; 
+        background-image: url("/media/rize_kamishiro_wallpaper_by_dinocozero_decujb8-pre.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative; 
+    }
+  
+    .image-container {
+        text-align: center; 
+    }
+  
+    .text-container {
+        position: absolute; 
+        bottom: 0; 
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 20px; 
+        color: white; 
+    }
+  }
  
