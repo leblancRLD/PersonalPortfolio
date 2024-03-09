@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: darkblue;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #0030bf;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+    height: 100%;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-1 a{
+   margin: 10px;
+   list-style-type: none;
+   text-decoration: none;
+   font-size: x-large;
+   padding: -10px;
+   color: aliceblue;
+
+}
+.navbar-2 li {
+    display: inline;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+
+}
+.fa-brands {
+    padding: 10px;
+    margin: 10px;
+}
+.fa-facebook{
+    font-size: 40px;
+    color: white;
+}
+.fa-linkedin{
+    font-size: 40px;
+    color: white;
+}
+.fa-youtube{
+    font-size: 40px;
+    color: white;
+}
+.fa-facebook:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.fa-linkedin:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.fa-youtube:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.navbar-1 a:hover{
+    color: red;
+    transition: 1s;
+    
+}
+
+
+footer{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: large;
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+
+  }
+  .footer-indown{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 5px;
+  }
+  footer >h3{
+    margin-left: 10px;
+  }
+  address > p >a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+  }
+  address > p >a >button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  address > p > a > button:hover{
+    background-color: #0056b3;
+  }
+
+  .boxing{
+    margin:  5rem auto;
+    max-width: 900px;
+    max-height: 100%;
+    box-shadow: 6px 5px 5px 6px black ;
+    border-top: 4px solid rgb(255, 251, 0);
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    box-shadow: 0 0 150px #0fa;
+    color: #ececf1;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxer > h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+
+  }
+  .titleFront{
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+  }
+ .descriptionTome{
+    margin:auto ;
+    text-align: center;
+    padding: 1rem;
+ }
+ div > a > button{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+ h2{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+ }
+ .tabel{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+ }
+ .HTML{
+    border: orange solid 2px;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    text-align: center;
+    box-shadow: 6px 5px 5px 6px black ;
+    border-top: 4px solid rgb(255, 251, 0);
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    box-shadow: 0 0 150px #0fa;
+    transition: transform 1s;
+
+
+ }
+.HTML >img{
+     width: 150px;
+}
+.HTML >article{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.HTML:hover{
+    color: #bcfd09;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+        transition: 1.2s;
+       
+}
+.CSS > h2{
+    color: white;
+}
+
+.CSS{
+    border: rgb(17, 0, 255) solid 2px;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    text-align: center;
+    box-shadow: 6px 5px 5px 6px black ;
+    border-top: 4px solid rgb(255, 251, 0);
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    box-shadow: 0 0 150px #0fa;
+}
+.CSS > img{
+    width: 150px;
+}
+.CSS>article{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.CSS:hover{
+    color: #bcfd09;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+        transition: 1.2s;
+       
+}
+.JAVASCRIPT{
+    border: rgb(17, 0, 255) solid 2px;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgb(190, 255, 10);
+    text-align: center;
+    box-shadow: 6px 5px 5px 6px black ;
+    border-top: 4px solid rgb(255, 251, 0);
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    box-shadow: 0 0 150px #0fa;
+}
+.JAVASCRIPT >img{
+    width: 150px;
+}
+.JAVASCRIPT >article{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+    
+}
+.JAVASCRIPT:hover{
+    color: #bcfd09;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+        transition: 1.2s;
+}
+
+.raccomandation >h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
