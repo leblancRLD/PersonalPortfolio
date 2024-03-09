@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: darkblue;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #0030bf;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-1 a{
+   margin: 10px;
+   list-style-type: none;
+   text-decoration: none;
+   font-size: x-large;
+   padding: -10px;
+   color: aliceblue;
+
+}
+.navbar-2 li {
+    display: inline;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+
+}
+.fa-brands {
+    padding: 10px;
+    margin: 10px;
+}
+.fa-facebook{
+    font-size: 40px;
+    color: white;
+}
+.fa-linkedin{
+    font-size: 40px;
+    color: white;
+}
+.fa-youtube{
+    font-size: 40px;
+    color: white;
+}
+.fa-facebook:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.fa-linkedin:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.fa-youtube:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 15px;
+    transition: 1.s;
+}
+.navbar-1 a:hover{
+    color: red;
+    transition: 1s;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+.text-hero{
+    display: flex;
+    justify-content: column;
+    text-align: left;
+    font-size: 3rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: dotted;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+}
+
+
+.background-wallpaper{
+    grid-column: 1/3;
+    background-color: #7bff00;
+    background-image:
+    linear-gradient(rgba(13, 7, 49, 0.877)
+                    ,rgba(0, 0, 255, 0.692)),
+    url("/portfoliopersonale/media/rize_kamishiro_wallpaper_by_dinocozero_decujb8-pre.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: optimizeQuality;
+    gap: 1rem;
+    border-bottom: 4px solid lightseagreen;
+
+}
+.profilo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 400px;
+    height: 300px;
+    image-rendering: optimizeQuality;
+    border-radius: 20%;
+    border-top: 4px solid blue;
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    filter:saturate(300%);
+    filter: contrast(150%);
+    box-shadow: 6px 5px 5px 6px black ;
+
+}
+.portfolio{
+    text-decoration: dotted;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+        
+
+}
+.experience{
+    background-color: beige;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 4px;
+    box-shadow: 6px 5px 5px 6px black ;
+    
+
+
+}
+.experience h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.experience h3{
+    text-align: left;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.experience .Barra{
+    background-color: green;
+    width: 350px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+
+}
+.experience .Barra2{
+    background-color: lightgreen;
+    width: 250px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+
+}
+.experience .Barra3{
+    background-color: lightpink;
+    width: 150px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+}
+.Languages{
+    background-color: beige;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 4px;
+    box-shadow: 6px 5px 5px 6px black ;
+}
+.Languages h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.Languages h3{
+    text-align: left;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.flag{
+    width: 50px;
+    margin-left: 10px;
+}
+.Languages .barra{
+    background-color: #7bff00;
+    width: 450px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+}
+.Languages .barraEng{
+    background-color: chocolate;
+    width: 350px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+}
+.Languages .barraBG{
+    background-color: chocolate;
+    width: 250px;
+    margin-left: -5px;
+    transition: 1.s;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.work{
+    margin: 1rem;
+    display: inline-block;
+    flex-direction: column;
+    background-color: beige;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin-left: 10rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 4px;
+    box-shadow: 6px 5px 5px 6px black ;
+    text-decoration: underline;
+}
+.work2{
+    margin: 1rem;
+    display: inline-block;
+    flex-direction: column;
+    background-color: beige;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin-left: 0rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    padding: 4px;
+    box-shadow: 6px 5px 5px 6px black ;
+    text-decoration: underline;
+}
+
+.image{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    transition: transform 1s;
+    border-radius: 20px;
+    
+}
+.image:hover{
+   transform: scale(1.5);
+}
+.descritption{
+    background-color: black;
+    color: red;
+    padding: 1rem;
+    border-radius: 20px;
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+div > a > button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.formdata{
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    text-align: center;
+    padding: 1rem;
+    font-size: xx-large;
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.281),rgba(0, 0, 255, 0.308)),
+         url('/portfoliopersonale/media/wp4946058-anime-places-wallpapers.jpg');
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+
+
+}
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: rgba(245, 245, 220, 0.329);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 6px 5px 5px 6px black ;
+    border-top: 4px solid rgb(255, 251, 0);
+    border-bottom: red 4px solid;
+    border-left: 4px solid rgb(35, 119, 35);
+    border-right: 4px solid cyan;
+    box-shadow: 0 0 150px #0fa;
+    color: #090dfd;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: x-large;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  footer{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: large;
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer > h3{
+    margin-left: 10px;
+  }
+  .footer-indown{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 5px;
+  }
+  address > p >a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+  }
+  address > p >a >button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  address > p > a > button:hover{
+    background-color: #0056b3;
+  }
+
+ 
