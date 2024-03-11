@@ -94,7 +94,7 @@ footer{
     padding: 2px;
     font-size: large;
     font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     
+    position:fixed;
     bottom: 0; 
     width: 100%; 
 
