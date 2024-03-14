@@ -435,22 +435,4 @@ div > a > button{
     position: sticky;
     top: 0;
   }
-   .experience h2{
-         text-align: left;
-   }
-    body {
-        flex-direction: row;
-        font-size: 14px;
-    }
-    .portfolio article {
-        
-        flex-basis: calc((100% - 10px) / 2); 
-      }
-    
-
-
-        padding: 20px; 
-        color: white; 
-    }
-  }
  
